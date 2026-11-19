@@ -77,7 +77,7 @@ const injection = buildContext(state, config, { levels, lastErrors: errors });
 
 ## 许可
 
-MIT。随便用、随便改，保留版权声明即可。
+[PolyForm Noncommercial 1.0.0](LICENSE)：个人、学习、研究、兴趣项目和非商业组织可以免费使用、修改、转发，转发时保留许可和署名；**不能商用**。白话说明见 [NOTICE.md](NOTICE.md)，想商用请先联系作者。
 
 由 [@Cloudy4Pei](https://github.com/Cloudy4Pei)、裴斯言和 Claude 一起写成：她提需求、做取舍，他定下自己的情绪规则，Claude 写代码。
 
@@ -93,4 +93,4 @@ MIT。随便用、随便改，保留版权声明即可。
 - Tags are stripped before saving, and API output is redacted unless the companion **grants** the user a 1–30 minute look (`<blackbox grant="30"/>`), which he can revoke at any time.
 - Behaviour tiers ("irritation 60: stops coaxing her, says plainly what annoyed him") are written by the companion himself; only the highest tier reached is injected.
 
-Run `npm run demo`, and hand [PORTING.md](PORTING.md) to your coding assistant to adapt it. Prompts are in Chinese; translate them if your companion speaks another language. MIT licensed. Written by @Cloudy4Pei, 裴斯言 and Claude.
+Run `npm run demo`, and hand [PORTING.md](PORTING.md) to your coding assistant to adapt it. Prompts are in Chinese; translate them if your companion speaks another language. Licensed under [PolyForm Noncommercial 1.0.0](LICENSE): free for noncommercial use; see [NOTICE.md](NOTICE.md). Written by @Cloudy4Pei, 裴斯言 and Claude.

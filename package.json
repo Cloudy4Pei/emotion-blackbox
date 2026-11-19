@@ -4,7 +4,7 @@
   "description": "给 AI 陪伴项目用的情绪黑箱：让角色自己记下负性情绪的积压，按真实时间消退，对 user 不可见。无依赖的参考实现。",
   "type": "module",
   "main": "src/index.js",
-  "license": "MIT",
+  "license": "PolyForm-Noncommercial-1.0.0",
   "engines": { "node": ">=18" },
   "scripts": {
     "demo": "node examples/demo.js",
